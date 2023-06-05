@@ -11,9 +11,12 @@ const Contact = () => {
     const form = useRef()
 
     useEffect(() => {
-        setTimeout(() => {
+        const timer = setTimeout(() => {
             setLetterClass('text-animate-hover')
         }, 3000)
+        return () => {
+            clearTimeout(timer)
+        }
     }, [])
 
     const sendEmail = (e) => {
@@ -60,10 +63,8 @@ const Contact = () => {
                         />
                     </h1>
                     <p>
-                        I am interested in freelance opportunities - especially
-                        on ambitious or large projects. However, if you have any
-                        other requests or questions, don't hesitate to contact
-                        me using below form either.
+                        If you have any requests or questions, don't hesitate to
+                        contact me using below form.
                     </p>
                     <div className="contact-form">
                         <form ref={form} onSubmit={sendEmail}>
@@ -111,21 +112,26 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="info-map">
-                    Slobodan Gajić,
+                    Kraiovyi Denys
                     <br />
-                    Serbia,
+                    Ukraine
                     <br />
-                    Branka RadiČevića 19, 22000 <br />
-                    Sremska Mitrovica <br />
+                    Shevchenko 101, 53200 <br />
+                    Nikopol, Dnipropetrovsk Oblast <br />
                     <br />
-                    <span>freelancerslobodan@gmail.com</span>
+                    <span>kraya.work@gmail.com</span>
                 </div>
                 <div className="map-wrap">
-                    <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+                    <MapContainer
+                        center={[47.564297766353924, 34.396692698354464]}
+                        zoom={13}
+                    >
                         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                        <Marker position={[44.96366, 19.61045]}>
+                        <Marker
+                            position={[47.564297766353924, 34.396692698354464]}
+                        >
                             <Popup>
-                                Sloba lives here, come over for a cup of coffee
+                                Denis lives here, come over for a cup of coffee
                                 :)
                             </Popup>
                         </Marker>

@@ -1,20 +1,19 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import LogoTitle from '../../assets/images/logo-s.png'
+import LogoD from '../../assets/images/golden.png'
 import AnimatedLetters from '../AnimatedLetters'
-import Logo from './Logo'
 
 import './index.scss'
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = ['l', 'o', 'b', 'o', 'd', 'a', 'n']
+    const nameArray = ['e', 'n', 'y', 's']
     const jobArray = [
-        'w',
+        'W',
         'e',
         'b',
         ' ',
-        'd',
+        'D',
         'e',
         'v',
         'e',
@@ -27,9 +26,12 @@ const Home = () => {
     ]
 
     useEffect(() => {
-        setTimeout(() => {
+        const timer = setTimeout(() => {
             setLetterClass('text-animate-hover')
         }, 4000)
+        return () => {
+            clearTimeout(timer)
+        }
     }, [])
     return (
         <div className="container home-page">
@@ -40,7 +42,7 @@ const Home = () => {
                     <br />
                     <span className={`${letterClass} _13`}>I</span>
                     <span className={`${letterClass} _14`}>'m</span>
-                    <img src={LogoTitle} alt="developer" />
+                    <img src={LogoD} className="letter-d" alt="developer" />
                     <AnimatedLetters
                         letterClass={letterClass}
                         stringArray={nameArray}
@@ -53,12 +55,11 @@ const Home = () => {
                         index={22}
                     />
                 </h1>
-                <h2>Frontend Developer / JavaScript Expert / React</h2>
+                <h2>Frontend Developer / JavaScript / React</h2>
                 <Link to="/contact" className="flat-button">
                     Contact Me
                 </Link>
             </div>
-            <Logo />
         </div>
     )
 }

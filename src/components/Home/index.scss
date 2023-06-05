@@ -1,7 +1,7 @@
 .home-page {
     .text-zone {
         position: absolute;
-        left: 10%;
+        left: 14%;
         top: 50%;
         transform: translateY(-50%);
         width: 40%;
@@ -46,6 +46,9 @@
             height: auto;
             animation: rotateIn 1s linear both;
             animation-delay: 1.4s;
+        }
+        .letter-d {
+            width: 50px;
         }
     }
 
