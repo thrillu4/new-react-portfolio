@@ -1,9 +1,9 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/ragnarok.png",
+            "cover": "/portfolio/kratos.jpg",
             "title": "God of War",
-            "description": "Vanilla JavaScript SCSS WebPack",
+            "description": "JavaScript SCSS WebPack",
             "url": "https://ragnarok-godofwar.netlify.app/"
         },
         {
@@ -13,15 +13,15 @@
             "url": "https://de0f1faf.fitness-gym-application.pages.dev/"
         },
         {
-            "cover": "/portfolio/marvel.png",
-            "title": "God of War",
-            "description": "React JavaScript SASS",
+            "cover": "/portfolio/marvel.jpg",
+            "title": "Marvel",
+            "description": "React JavaScript SASS Formik",
             "url": "https://thrillu4.github.io/marvel-project/"
         },
         {
-            "cover": "/portfolio/ragnarok.png",
+            "cover": "/portfolio/kratos.jpg",
             "title": "God of War",
-            "description": "Vanilla JavaScript SCSS WebPack",
+            "description": "JavaScript SCSS WebPack",
             "url": "https://ragnarok-godofwar.netlify.app/"
         }
     ]

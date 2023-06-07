@@ -99,3 +99,31 @@
         }
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .container.portfolio-page {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+        h1.page-title {
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        .image-box {
+            height: 200px;
+            max-width: 100%;
+            flex: 1 1 40%;
+        }
+        .content {
+            padding: 5px;
+            bottom: -105px;
+            .title {
+                font-size: 16px;
+            }
+            .description {
+                font-size: 12px;
+                margin-top: 10px;
+            }
+        }
+    }
+}

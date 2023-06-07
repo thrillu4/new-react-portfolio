@@ -82,3 +82,30 @@
         }
     }
 }
+@media screen and (max-width: 1200px) {
+    .tags,
+    .home-page h1:before,
+    .home-page h1:after {
+        display: none;
+    }
+
+    .home-page .text-zone {
+        margin-top: 150px;
+        position: initial;
+        width: 100%;
+        transform: none;
+        padding: 10px;
+        box-sizing: border-box;
+        h1 {
+            font-size: 45px;
+        }
+    }
+
+    .home-page .flat-button {
+        float: none;
+        display: block;
+        margin: 50px auto 0 auto;
+        width: 124px;
+        text-align: center;
+    }
+}
