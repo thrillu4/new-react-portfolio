@@ -100,7 +100,7 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
     .container.portfolio-page {
         width: 100%;
         box-sizing: border-box;
@@ -124,6 +124,16 @@
                 font-size: 12px;
                 margin-top: 10px;
             }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container.portfolio-page {
+        .image-box {
+            height: 300px;
+            max-width: 100%;
+            flex: 1 1 40%;
         }
     }
 }

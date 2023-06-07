@@ -4,7 +4,7 @@
         left: 14%;
         top: 50%;
         transform: translateY(-50%);
-        width: 40%;
+        width: 50%;
         max-height: 90%;
     }
 
@@ -82,7 +82,7 @@
         }
     }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
     .tags,
     .home-page h1:before,
     .home-page h1:after {

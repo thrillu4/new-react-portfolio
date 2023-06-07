@@ -5,6 +5,7 @@ import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
+import Social from '../Social'
 
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -110,6 +111,7 @@ const Contact = () => {
                             </ul>
                         </form>
                     </div>
+                    <Social className="social-contact" />
                 </div>
                 <div className="info-map">
                     Kraiovyi Denys
