@@ -7,6 +7,12 @@
             "url": "https://ragnarok-godofwar.netlify.app/"
         },
         {
+            "cover": "/portfolio/stuff.jpeg",
+            "title": "Stuff Shop",
+            "description": "React Redux Toolkit CSS Axios",
+            "url": "https://stuff-shop.netlify.app/"
+        },
+        {
             "cover": "/portfolio/evogym.png",
             "title": "Evo Gym",
             "description": "React Vite TypeScript Tailwind",
@@ -19,10 +25,16 @@
             "url": "https://thrillu4.github.io/marvel-project/"
         },
         {
-            "cover": "/portfolio/kratos.jpg",
-            "title": "God of War",
-            "description": "JavaScript SCSS WebPack",
-            "url": "https://ragnarok-godofwar.netlify.app/"
+            "cover": "/portfolio/employees.jpeg",
+            "title": "Employees List",
+            "description": "React JavaScript SASS",
+            "url": "https://employees-react-list.netlify.app/"
+        },
+        {
+            "cover": "/portfolio/weather.jpg",
+            "title": "Weather App",
+            "description": "React JavaScript CSS API",
+            "url": "https://weather-react-app-thrillu4.netlify.app/"
         }
     ]
 }
