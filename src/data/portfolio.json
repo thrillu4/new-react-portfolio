@@ -13,16 +13,22 @@
             "url": "https://stuff-shop.netlify.app/"
         },
         {
+            "cover": "/portfolio/marvel.jpg",
+            "title": "Marvel",
+            "description": "React JavaScript SASS Formik",
+            "url": "https://thrillu4.github.io/marvel-project/"
+        },
+        {
             "cover": "/portfolio/evogym.png",
             "title": "Evo Gym",
             "description": "React Vite TypeScript Tailwind",
             "url": "https://de0f1faf.fitness-gym-application.pages.dev/"
         },
         {
-            "cover": "/portfolio/marvel.jpg",
-            "title": "Marvel",
-            "description": "React JavaScript SASS Formik",
-            "url": "https://thrillu4.github.io/marvel-project/"
+            "cover": "/portfolio/dat-shop.png",
+            "title": "DAT Shop",
+            "description": "React JavaScript SASS RouterDom v6",
+            "url": "https://dat-shop.netlify.app/"
         },
         {
             "cover": "/portfolio/employees.jpeg",
