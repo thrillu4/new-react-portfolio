@@ -13,7 +13,7 @@
             "url": "https://web-furniro.netlify.app/"
         },
         {
-            "cover": "/portfolio/stuff.jpeg",
+            "cover": "/portfolio/stuff.jpg",
             "title": "Stuff Shop",
             "description": "React Redux Toolkit CSS Axios",
             "url": "https://stuff-shop.netlify.app/"
